@@ -18,7 +18,7 @@
               class="no-elevation"
               :multiple="allowMultipleSearch"
             >
-              <template v-slot:selection="{ attrs, item, parent, selected }" v-if="allowMultipleSearch">
+              <!-- <template v-slot:selection="{ attrs, item, parent, selected }" v-if="allowMultipleSearch">
                 <v-chip
                   v-if="item === Object(item)"
                   v-bind="attrs"
@@ -34,7 +34,7 @@
                     $delete
                   </v-icon>
                 </v-chip>
-              </template>
+              </template> -->
               <template slot="item" slot-scope="data">
                 {{ data.item.type }}: <span class="cb-item">{{data.item.name}}</span> <v-spacer/><v-icon size="20">{{ data.item.icon }}</v-icon>
               </template>
