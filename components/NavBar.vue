@@ -165,12 +165,12 @@ export default {
         result = result.split(' ').join('-');
         return result;
     },
-    // showMobileMenu() {
-    //   this.$emit('showMobileMenu', true)
-    // },
-    // openForm: function () {
-    //   this.$store.dispatch('userStore/openForm', null, { root: true })
-    // },
+    showMobileMenu() {
+      this.$emit('showMobileMenu', true)
+    },
+    openForm: function () {
+      this.$store.dispatch('userStore/openForm', null, { root: true })
+    },
     logout2: async function () {
       await this.$store.dispatch('userStore/logout', null, { root: true })
 
