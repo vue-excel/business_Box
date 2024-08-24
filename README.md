@@ -2,6 +2,7 @@
 
 ## Overview
 
+yellow submarine the beatels
 Business Box is a project designed to streamline and enhance business processes through innovative technology solutions. The project focuses on leveraging modern frontend technologies to create a dynamic and responsive web application. We use Vue.js and Nuxt.js to deliver a seamless and powerful user experience.
 
 ## Technologies
